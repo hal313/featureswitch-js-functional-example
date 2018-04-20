@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - '0.11'
+  - '8.9.3'
+before_install:
+  - npm install -g typescript
+script:
+  - npm install
+  - npm run test_typescript
+  - npm run test_node
+notifications:
+  email:
+    - john-github@rmdashrf.org
