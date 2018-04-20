@@ -13,7 +13,7 @@ This project shows three common ways to consume the [featureswitch-js](https://g
 * Typescript projects
 
 ## Usage
-It is best to consider this project a code playground where code is executed as changes are made. In all cases, the development dependencies will need to be installed:
+It is useful to consider this project a code playground where code is executed as changes are made. In all cases, the development dependencies will need to be installed:
 ```
 npm install
 ```
