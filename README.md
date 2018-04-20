@@ -1,7 +1,6 @@
 # [featureswitch-js-functional-example](https://github.com/hal313/featureswitch-js-functional-example)
 
 [![Build Status](http://img.shields.io/travis/hal313/featureswitch-js-functional-example/master.svg?style=flat-square)](https://travis-ci.org/hal313/featureswitch-js-functional-example)
-[![NPM version](http://img.shields.io/npm/v/featureswitch-js-functional-example.svg?style=flat-square)](https://www.npmjs.com/package/featureswitch-js-functional-example)
 [![Dependency Status](http://img.shields.io/david/hal313/featureswitch-js-functional-example.svg?style=flat-square)](https://david-dm.org/hal313/featureswitch-js-functional-example)
 
 > Functional examples of using the [featureswitch-js](https://github.com/hal313/featureswitch-js) library.
@@ -14,7 +13,7 @@ This project shows three common ways to consume the [featureswitch-js](https://g
 * Typescript projects
 
 ## Usage
-It is best to consider this project a code playground where code is executed as changes are made. In all cases, the development dependencies will need to be installed:
+It is useful to consider this project a code playground where code is executed as changes are made. In all cases, the development dependencies will need to be installed:
 ```
 npm install
 ```
