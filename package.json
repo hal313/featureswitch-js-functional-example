@@ -1,0 +1,38 @@
+{
+  "name": "featureswitch-js-functional-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "test_typescript": {
+      "patterns": [
+        "build",
+        "node_modules/featureswitch-js/dist"
+      ],
+      "extensions": "js"
+    },
+    "test_node": {
+      "patterns": [
+        "src",
+        "node_modules/featureswitch-js/dist"
+      ],
+      "extensions": "js"
+    }
+  },
+  "scripts": {
+    "start:typescript": "concurrently \"tsc --watch\" \"npm run watch test_typescript\"",
+    "start:node": "npm run watch test_node",
+    "watch": "npm-watch",
+    "test_typescript": "node build\\typescript-test.js",
+    "test_node": "node src\\node-test.js"
+  },
+  "author": "John Ghidiu",
+  "license": "MIT",
+  "dependencies": {
+    "featureswitch-js": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "npm-watch": "^0.3.0"
+  }
+}
