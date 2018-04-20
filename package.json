@@ -23,8 +23,8 @@
     "start:typescript": "concurrently \"npm run compile:watch\" \"npm run watch test_typescript\"",
     "start:node": "npm run watch test_node",
     "watch": "npm-watch",
-    "test_typescript": "node build\\typescript-test.js",
-    "test_node": "node src\\node-test.js",
+    "test_typescript": "node build/typescript-test.js",
+    "test_node": "node src/node-test.js",
     "compile": "tsc",
     "compile:watch": "tsc --watch"
   },
