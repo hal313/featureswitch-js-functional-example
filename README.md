@@ -3,6 +3,8 @@
 [![Build Status](http://img.shields.io/travis/hal313/featureswitch-js-functional-example/master.svg?style=flat-square)](https://travis-ci.org/hal313/featureswitch-js-functional-example)
 [![Dependency Status](http://img.shields.io/david/hal313/featureswitch-js-functional-example.svg?style=flat-square)](https://david-dm.org/hal313/featureswitch-js-functional-example)
 
+> This project has been deprecated. Please use [feature-switch-core](https://github.com/hal313/featureswitch-js-functional-example) moving forward.
+
 > Functional examples of using the [featureswitch-js](https://github.com/hal313/featureswitch-js) library.
 
 ## Introduction
